@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    body {background-color:"#33ccff"}
+    label{width:"150px";
+    clear:left;
+    padding-right:10px;
+    }
+    </style>
+        <form>
+        
+            Name:<input type="text" name="first_name" placeholder="first_name" width="150px"/>
+            <br />
+            Event:<input type="text" name="Event" placeholder="Event" width="150px"/>
+            <br />
+            Date:<input type="text" name="Date" placeholder="Date" width="150px"/>
+        </form>
+    
+</html>
