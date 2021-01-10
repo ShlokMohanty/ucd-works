@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Target Frames</title>
+        <style type="text/css">
+        h1{
+            border-color: blue;
+            border-width: .25em;
+            border-style: double;
+        }
+        h2{
+            border-color: orange;
+            border-width: 5px;
+            border-style: inset;
+        }
+        </style>
+    </head>
+   <frameset cols=20%,30% bordercolor=blue border=30>
+       <frame src="form_contents.html" name="form_content" />
+       <frame src="form_blank_div.html" name="form_blank" />
+    <noframes>
+        <body>your browser does not support frames.</body>
+    </noframes>
+    </frameset>
+</html> style and for 
